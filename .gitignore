@@ -1,0 +1,35 @@
+# Dependencies
+node_modules/
+package-lock.json
+
+# Environment variables & Secrets
+.env
+.env.local
+.env.*.local
+*.env
+
+# SQLite Database & Storage (Contains API keys, admin passwords, chat logs)
+*.sqlite
+*.sqlite3
+*.db
+database.sqlite
+
+# SSL Certificates & Private Keys
+certs/
+*.key
+*.pem
+*.cert
+*.crt
+
+# Logs & Debugging
+logs/
+*.log
+npm-debug.log*
+yarn-debug.log*
+yarn-error.log*
+
+# OS & Editor Files
+.DS_Store
+Thumbs.db
+.vscode/
+.idea/
